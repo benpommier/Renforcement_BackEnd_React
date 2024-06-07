@@ -1,0 +1,35 @@
+
+/* Style du conteneur du header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Style du titre du header */
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Style des liens du menu */
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+}
